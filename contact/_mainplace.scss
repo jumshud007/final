@@ -1,0 +1,169 @@
+@mixin display() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+color: orange;
+}
+a{
+    transition: 0.3s;
+}
+.container {
+    width: 70%;
+
+    height: 500px;
+    margin: auto auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    padding: 5px;
+}
+
+.incontopdiv {
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.mainincondiv {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    gap: 20px;
+
+}
+
+h3 {
+    color: rgba(48, 48, 48, 0.282);
+}
+
+span {
+    color: rgb(10, 10, 10);
+    font-size: 19px;
+}
+
+.topininmain {
+    width: 100%;
+    height: 40%;
+    padding: 4px 0px 0px 20px;
+    display: flex;
+    gap: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomininmain {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 60%;
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+pre {
+    font-size: 5px;
+
+}
+
+pre {
+    font-size: larger;
+}
+
+.smt {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.h2 {
+    margin-top: 7px;
+    font-size: x-large;
+
+}
+
+.inmaindiv1 {
+    border-radius: 1.2%;
+    padding-top: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(1, 1, 1, 0.173);
+    width: 35%;
+    height: 100%;
+}
+
+.inmaindiv2 {
+    width: 65%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 5px 1px rgba(1, 1, 1, 0.173);
+    gap: 20px;
+    padding: 30px;
+    align-items: center;
+
+    button {
+        width: 210px;
+        height: 40px;
+        border-radius: 3%;
+        margin-left: 390px;
+        background-color: #DB4444;
+        color: white;
+        padding: 5px;
+        font-weight: bold;
+        font-size: small;
+        border: none;
+        outline: none;
+        border-radius: 2%;
+        border: none;
+        outline: none;
+    }
+}
+
+textarea {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 91%;
+    height: 50%;
+    resize: none;
+    border-radius: 1%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #F5F5F5;
+}
+
+::placeholder {
+    font-size: 14px;
+
+}
+
+input {
+    width: 180px;
+    margin: 0;
+    height: 35px;
+    padding: 3px;
+    border-radius: 2%;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}

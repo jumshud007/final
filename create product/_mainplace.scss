@@ -1,0 +1,85 @@
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: a;
+}
+a:hover{
+color: orange;
+}
+a{
+    transition: 0.3s;
+}
+.main{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 4px;
+border: none;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+    margin-bottom:10px;
+    // font-size: larger;
+}
+.mainplace{
+    width: 90%;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    input{
+        padding: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.43);
+    outline: none;
+    border-radius: 2px;
+    width:78.5%;
+    height: 35px;
+    background-color: white;
+}
+h2{
+    font-size: large;
+}
+}
+.topplace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+}
+.bottomplace{
+    width: 90%;
+    height: 7%;
+    display: flex;
+    gap: 9px;
+    button{
+        width: 70px;
+        height: 30px;
+        border-radius: 5px;
+    }
+}
+textarea{
+    border: 1px solid rgba(128, 128, 128, 0.43);
+    outline: none;
+    border-radius: 2px;
+    width:80.5%;
+    height: 105px; 
+resize:vertical;
+}
+.first{
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+.second{
+    color: black;
+    background-color: rgb(214, 214, 0);
+}

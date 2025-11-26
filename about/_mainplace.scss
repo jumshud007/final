@@ -1,0 +1,75 @@
+@mixin display() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    width: 75%;
+}
+a:hover{
+color: orange;
+}
+a{
+    transition: 0.3s;
+}
+.container  {
+    width: 100%;
+    align-items: center;
+    height: 800px;
+    margin: auto auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 103px;
+    padding: 5px;
+    h2{
+        align-items: start;
+    }
+}
+.topcon {
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+    width: 75%;
+
+    h1 {
+        font-size: 50px;
+    }
+    .leftdiv{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    justify-content: center;    
+    }
+    img{
+        width: 700px;
+        height: 500px;
+    }
+    .rightdiv{
+        width: 90%;
+    }
+    
+}
+    .botttomcon{
+        display: flex;
+        width: 80%;
+        height: 700px;
+        justify-content: space-between;
+        gap: 20px;
+    .books{
+        width: 30%;
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+        height: 60%;
+    }
+}
+.imgs{
+width: 100%;
+display: flex;
+gap: 10px;
+}

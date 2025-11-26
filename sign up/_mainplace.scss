@@ -1,0 +1,104 @@
+.main div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.main a {
+    color: red;
+    font-size: bold;
+    font-size: medium;
+}
+
+.main p {
+    font-size: small;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main {
+    width: 440px;
+    height: 540px;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 0px 0px 20px 1.2px rgba(0, 0, 0, 0.168);
+
+    gap: 15px;
+    padding: 20px;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.main input {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0.1px solid rgb(174, 174, 174);
+    box-shadow: 0px 0px 3px 0.1px rgba(0, 0, 0, 0.241);
+}
+
+.main button {
+    width: 323px;
+    height: 56px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+main h1 {
+    background-color: rgb(31, 31, 31);
+}
+
+.a {
+    justify-content: start;
+    align-items: start;
+    width: 72.5%;
+    height: 26%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 100px;
+}
+
+a {
+    transition: .3s;
+}
+
+.con {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 140px 0px 300px;
+    gap: 20px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+form {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a:hover {
+    color: orange;
+}
+
+a {
+    transition: 0.3s;
+}

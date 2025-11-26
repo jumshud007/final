@@ -1,0 +1,224 @@
+.container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    gap: 15px;
+    height: 400px;
+}
+
+.topcon {
+    width: 80%;
+    height: 50px;
+
+    h1 {
+        font-size: 33px;
+        font-weight: bold;
+    }
+}
+
+.leftmaindiv {
+    width: 50%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightmaindiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .someright {
+        display: flex;
+    }
+}
+
+
+a:hover {
+    color: orange;
+}
+
+a {
+    transition: 0.3s;
+}
+
+button {
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.topinrightmaindiv {
+    width: 68%;
+    height: 45%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.242);
+}
+
+.bottominrightmaindiv {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 25px;
+
+    button {
+        width: 200px;
+        height: 35px;
+        font-weight: normal;
+    }
+}
+
+.topdivv {
+    gap: 10px;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.34);
+    align-items: center;
+}
+
+.bottomdivv {
+    border-right: 1px solid rgba(128, 128, 128, 0.34);
+    border-left: 1px solid rgba(128, 128, 128, 0.34);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+    width: 400px;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container2 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 450px;
+}
+
+.shop {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    gap: 10px;
+
+    button {
+        width: 200px;
+        height: 35px;
+        background-color: black;
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 5px;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    p {
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    img {
+        width: 261.5px;
+        height: 210px;
+        margin-bottom: 10px;
+        margin-left: -10.4px;
+    }
+}
+
+.ul1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.184);
+
+    ul {
+        margin-left: 10px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.someul2star {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 150px;
+    margin-left: 20px;
+
+    img {
+        width: 60%;
+        height: 45px;
+    }
+}
+
+a:hover {
+    color: orange;
+}
+
+a {
+    transition: 0.3s;
+}
+
+.rightmain {
+    width: 200px;
+    height: 22px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(103, 103, 103, 0.2);
+    display: flex;
+
+    justify-content: space-between;
+
+    p {
+        color: rgba(41, 41, 41, 0.818);
+    }
+}
+
+.imgs {
+    width: 40%;
+    height: 40px;
+}
+
+.starr {
+    display: flex;
+    align-items: center;
+
+    p {
+        color: rgba(128, 128, 128, 0.445);
+    }
+}

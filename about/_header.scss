@@ -1,0 +1,129 @@
+@mixin display() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+  .topdiv {
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: small;
+    font-weight: 200;
+    background: #DB4444;
+    @include display();
+
+    a {
+      color: white;
+      font-size: larger;
+
+      font-weight: bold;
+    }
+
+    div {
+      width: 50%;
+      padding: 0px 15px;
+
+
+    }
+  }
+}
+
+.bottomdiv {
+  padding: 20px 0px 0px;
+  width: 100%;
+  height: 50%;
+  @include display();
+  border-bottom: 1px solid rgba(10, 10, 10, 0.633);
+
+  .imbottomfirstdiv {
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .inbottomseconddiv {
+    width: 40%;
+    height: 100%;
+    @include display();
+    gap: 10px;
+  }
+}
+
+.ul {
+  @include display();
+  gap: 30px;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  flex-direction: row;
+  height: 100%;
+li{
+  color: black;
+}
+}
+
+* {
+  margin: 0;
+
+  padding: 0;
+  font-weight: 200;
+}
+
+#li1{
+  font-size: 34px;
+  font-weight: 700;
+  a{
+    font-size: 34px;
+  }
+}
+#li2{
+  padding: 0px 0px 0px 2px;
+  border-bottom: 1px solid black;
+}
+#li3{
+  background-color: #DB4444;
+  color: white;
+  padding:5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: small;
+    a{
+    color: white;
+    font-weight: bold;
+  }
+}
+input{
+  padding: 5px;
+  background-color: rgba(184, 184, 184, 0.666);
+  outline: none;
+  border: none;
+}
+button{
+    background-color: #DB4444;
+  color: white;
+  padding:5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: small;
+  border: none;
+  outline: none;
+}
