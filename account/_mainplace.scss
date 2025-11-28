@@ -23,6 +23,13 @@
     flex-direction: column;
     gap: 19px;
     margin: 0px auto;
+    p {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     li{
         color: black;
     }
@@ -39,7 +46,7 @@ h2 {
     width: 130px;
     height: 20px;
     background-color: rgb(218, 0, 0);
-    margin-left: 125px;
+    margin-left: 131px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,4 +78,16 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media(max-width:600px){
+.something{
+    margin-left: 0;
+}
+.container{
+    
+        margin-top: 250px;
+}
+.inmaindiv{
+    margin-right:80px;
+}
 }

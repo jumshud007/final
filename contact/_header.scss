@@ -71,6 +71,10 @@ header {
     height: 100%;
     @include display();
     gap: 10px;
+    a{
+      font-weight: bold;
+      color:white;
+    }
   }
 }
 
@@ -148,30 +152,43 @@ button {
     color: black;
   }
 }
+
 .burgermenyu {
-    display: flex;
-    flex-direction: column;
-    max-width: 250px;
-    max-height: 200px;
-    display: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  max-height: 200px;
+  display: none;
 }
 
 @media (max-width : 600px) {
-  header{
+  header {
     width: 800px;
-}
-    .burgermenyu{
-        display: block;
+    button{
+      width: 50px;
     }
-    .inbottomseconddiv{
-      justify-content: start;
-      align-items: start;
-      padding-bottom: 20px;
-    }
-    .ul{
-      display: none;
-    }
-    .topdiv{
-      width: 1700px;
-    }
+  }
+
+  .burgermenyu {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .bottomdiv{
+    border: none;
+  }
+
+  .inbottomseconddiv {
+    justify-content: start;
+    align-items: start;
+    padding-bottom: 20px;
+    margin-right: 200px;
+  }
+
+  .ul {
+    display: none;
+  }
+
+  .topdiv {
+    width: 1700px;
+  }
 }

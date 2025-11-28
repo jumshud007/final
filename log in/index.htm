@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script1 (1).js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,9 +13,22 @@
     <header>
         <div class="topdiv">
             <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
-            <a href="#">Shop now</a>
+            <a href="../shop/index.htm">Shop now</a>
         </div>
         <div class="bottomdiv">
+                        <div class="burgermenyu" style="width: 188px;padding: 20px 0px 0px;">
+                <img src="../img1/burgermenyu.png" alt="" style="width: 50px;height: 50px;"
+                    onclick="burger()">
+                <ul class="ull" style="display: none;;">
+                    <li id="li1"> <a href="">E-commerce</a></li>
+                    <li id="li2" style="
+    width: 60px;"><a href="../homepage/index.htm">Home</a></li>
+                    <li><a href="../contact/index.htm">Contact</a></li>
+                    <li><a href="../about/index.htm">About</a></li>
+                    <li><a href="../sign up/index.htm">Sign-up</a></li>
+                    <li id="li3"><a href="../shop/index.htm">Shop</a></li>
+                </ul>
+                        </div>
             <div class="imbottomfirstdiv">
                 <ul class="ul">
 
@@ -35,19 +49,20 @@
             </div>
         </div>
     </header>
-    <div class="con">
+        <div class="con">
         <div class="main">
                 <h1 align="center" style="font-weight: bold;">Log in</h1>
             <form action="#">
                 <div class="maindivs">
                 <h3>Username</h3>
-                <input type="text" class="input">
+                <input type="text" class="input" id="userLogInp">
                 </div>
                 <div class="maindivs">
                 <h3>Password</h3>
-                <input type="password" class="input">
+                <input type="password" class="input" id="userPassInp">
                 </div>
-                <button class="button">Log in</button>
+                <button class="button" id="login_btn">Log in</button>
+                <button class="button" style="display: none;background-color: blue;"><a href="../homepage/index.htm">Click to go to homepage</a></button>
             </form>
         </div>
     </div>

@@ -144,7 +144,7 @@ p{
 .carousel-dots {
     position: absolute;
     bottom: 120px;
-    left: 50%;
+    left: 80px;
     transform: translateX(-50%);
     display: flex;
     gap: 8px;
@@ -566,6 +566,9 @@ a {
         width: 442px;
         height: 400px;
         flex-direction: column;
+    }
+    .imgpaste{
+        width: 100%;
     }
 .intop1{
     width: 440px;

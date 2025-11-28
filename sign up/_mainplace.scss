@@ -37,7 +37,7 @@ h3 {
 }
 
 .main input {
-    width: 300px;
+    width: 400px;
     height: 20px;
     padding: 10px;
     background-color: white;
@@ -47,11 +47,11 @@ h3 {
 }
 
 .main button {
-    width: 323px;
-    height: 56px;
+    width: 423px;
+    height: 50px;
     border-radius: 5px;
     margin-top: 30px;
-    margin-left: 5px;
+    margin-right: 17px;
 }
 
 main h1 {
@@ -61,7 +61,7 @@ main h1 {
 .a {
     justify-content: start;
     align-items: start;
-    width: 72.5%;
+    width: 100%;
     height: 26%;
     display: flex;
     flex-direction: column;
@@ -101,4 +101,9 @@ a:hover {
 
 a {
     transition: 0.3s;
+}
+@media(max-width:600px){
+.con{
+    width: 600px;
+}
 }

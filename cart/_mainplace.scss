@@ -166,3 +166,8 @@ th {
     border: 1px solid grey;
     padding: 7px 30px 7px 5px;
 }
+@media(max-width:600px){
+.container{
+    width:770px;
+}
+}

@@ -71,6 +71,10 @@ header {
     height: 100%;
     @include display();
     gap: 10px;
+    a{
+      font-weight: bold;
+      color:white;
+    }
   }
 }
 
@@ -108,10 +112,9 @@ header {
 #li3 {
   background-color: #DB4444;
   color: white;
-  padding: 8px 15px;
-  border-radius: 3px;
-  font-weight: bold;
+  padding: 5px;
   font-size: small;
+  border-radius: 5px;
 
   a {
     color: white;
@@ -128,10 +131,59 @@ input {
 button {
   background-color: #DB4444;
   color: white;
-  padding: 8px 15px;
-  border-radius: 3px;
+  padding: 5px;
   font-weight: bold;
   font-size: small;
   border: none;
   outline: none;
+  border-radius: 5px;
+}
+
+.ull {
+  @include display();
+  gap: 30px;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  display: block;
+
+  li {
+    color: black;
+  }
+}
+
+.burgermenyu {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  max-height: 200px;
+  display: none;
+}
+
+@media (max-width : 600px) {
+  header {
+    width: 800px;
+    button{
+      width: 50px;
+    }
+  }
+
+  .burgermenyu {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .bottomdiv{
+    border: none;
+  }
+
+  .inbottomseconddiv {
+    justify-content: start;
+    align-items: start;
+    padding-bottom: 20px;
+    margin-right: 200px;
+  }
+  .topdiv {
+    width: 1700px;
+  }
 }

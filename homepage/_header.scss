@@ -71,6 +71,10 @@ header {
     height: 100%;
     @include display();
     gap: 10px;
+    a{
+      font-weight: bold;
+      color:white;
+    }
   }
 }
 
@@ -160,20 +164,24 @@ button {
 @media (max-width : 600px) {
   header {
     width: 800px;
+    button{
+      width: 50px;
+    }
   }
 
   .burgermenyu {
     display: block;
+    margin-bottom: 40px;
+  }
+  .bottomdiv{
+    border: none;
   }
 
   .inbottomseconddiv {
     justify-content: start;
     align-items: start;
     padding-bottom: 20px;
-  }
-
-  .ul {
-    display: none;
+    margin-right: 200px;
   }
 
   .topdiv {

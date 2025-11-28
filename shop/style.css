@@ -12,19 +12,13 @@ header {
   width: 100%;
   height: 100px;
 }
-header button {
-  background-color: #DB4444;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: small;
-  border: none;
-  outline: none;
-}
 header a {
   text-decoration: none;
   color: black;
+  transition: 0.3s;
+}
+header a:hover {
+  color: blue;
 }
 header .topdiv {
   width: 100%;
@@ -69,6 +63,10 @@ header .topdiv div {
   align-items: center;
   gap: 10px;
 }
+.bottomdiv .inbottomseconddiv a {
+  font-weight: bold;
+  color: white;
+}
 
 .ul {
   display: flex;
@@ -105,9 +103,7 @@ header .topdiv div {
   background-color: #DB4444;
   color: white;
   padding: 5px;
-  font-weight: bold;
   font-size: small;
-  font-weight: bold;
   border-radius: 5px;
 }
 #li3 a {
@@ -121,6 +117,67 @@ input {
   border: none;
 }
 
+button {
+  background-color: #DB4444;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  font-size: small;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.ull {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  display: block;
+}
+.ull li {
+  color: black;
+}
+
+.burgermenyu {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  max-height: 200px;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  header {
+    width: 800px;
+  }
+  header button {
+    width: 50px;
+  }
+  .burgermenyu {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .bottomdiv {
+    border: none;
+  }
+  .inbottomseconddiv {
+    justify-content: start;
+    align-items: start;
+    padding-bottom: 20px;
+    margin-right: 200px;
+  }
+  .ul {
+    display: none;
+  }
+  .topdiv {
+    width: 1700px;
+  }
+}
 .con {
   width: 100%;
   height: 500px;
@@ -134,7 +191,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 60px;
 }
 .main .leftmaindiv {
   display: flex;
@@ -157,10 +214,14 @@ input {
   flex-direction: column;
   gap: 10px;
 }
+.main .leftmaindiv p {
+  cursor: pointer;
+}
 .main .leftmaindiv li {
   font-weight: bold;
   font-size: 15px;
   color: black;
+  cursor: pointer;
 }
 .main .rightmaindiv {
   width: 80%;
@@ -270,6 +331,19 @@ a {
   margin: 10px 0px;
 }
 
+@media (max-width: 600px) {
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .con {
+    margin: 200px 0px;
+  }
+  .main {
+    margin-left: 200px;
+  }
+}
 body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;

@@ -139,6 +139,33 @@
   color: rgba(0, 0, 0, 0.818);
 }
 
+@media (max-width: 600px) {
+  .container {
+    height: 1000px;
+    width: 700px;
+    margin-top: 200px;
+  }
+  .main {
+    flex-direction: column;
+    gap: 30px;
+    height: 900px;
+    width: 700px;
+  }
+  .inputt {
+    width: 400px;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .cards {
+    width: 130px;
+  }
+  .rightmaindiv {
+    width: 450px;
+  }
+  .bottomcon {
+    margin-top: 200px;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -204,6 +231,10 @@ header .topdiv div {
   align-items: center;
   gap: 10px;
 }
+.bottomdiv .inbottomseconddiv a {
+  font-weight: bold;
+  color: white;
+}
 
 .ul {
   display: flex;
@@ -239,10 +270,9 @@ header .topdiv div {
 #li3 {
   background-color: #DB4444;
   color: white;
-  padding: 8px 15px;
-  border-radius: 3px;
-  font-weight: bold;
+  padding: 5px;
   font-size: small;
+  border-radius: 5px;
 }
 #li3 a {
   color: white;
@@ -258,14 +288,64 @@ input {
 button {
   background-color: #DB4444;
   color: white;
-  padding: 8px 15px;
-  border-radius: 3px;
+  padding: 5px;
   font-weight: bold;
   font-size: small;
   border: none;
   outline: none;
+  border-radius: 5px;
 }
 
+.ull {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  display: block;
+}
+.ull li {
+  color: black;
+}
+
+.burgermenyu {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  max-height: 200px;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  header {
+    width: 800px;
+  }
+  header button {
+    width: 50px;
+  }
+  .burgermenyu {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .bottomdiv {
+    border: none;
+  }
+  .inbottomseconddiv {
+    justify-content: start;
+    align-items: start;
+    padding-bottom: 20px;
+    margin-right: 200px;
+  }
+  .ul {
+    display: none;
+  }
+  .topdiv {
+    width: 1700px;
+  }
+}
 body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
@@ -381,6 +461,7 @@ li {
   footer {
     width: 780px;
     height: 650px;
+    margin-top: 700px;
   }
   .topfoot {
     flex-wrap: wrap;

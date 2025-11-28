@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="topdiv">
+            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+            <a href="../shop/index.htm">Shop now</a>
+        </div>
+        <div class="bottomdiv">
+            <div class="burgermenyu" style="width: 188px;padding: 20px 0px 0px;">
+                <img src="../img1/burgermenyu.png" alt="" style="width: 50px;height: 50px;" onclick="burger()">
+                <ul class="ull" style="display: none;;">
+                    <li id="li1"> <a href="">E-commerce</a></li>
+                    <li id="li2" style="
+    width: 60px;"><a href="../homepage/index.htm">Home</a></li>
+                    <li><a href="../contact/index.htm">Contact</a></li>
+                    <li><a href="../about/index.htm">About</a></li>
+                    <li><a href="../sign up/index.htm">Sign-up</a></li>
+                    <li id="li3"><a href="../shop/index.htm">Shop</a></li>
+                </ul>
+            </div>
+            <div class="imbottomfirstdiv">
+                <ul class="ul">
+
+                    <li id="li1"> <a href="">E-commerce</a></li>
+                    <li><a href="../homepage/index.htm">Home</a></li>
+                    <li id="li2"><a href="../contact/index.htm">Contact</a></li>
+                    <li><a href="../about/index.htm">About</a></li>
+                    <li><a href="../sign up/index.htm">Sign-up</a></li>
+                    <li id="li3"><a href="../shop/index.htm">Shop</a></li>
+                </ul>
+
+            </div>
+            <div class="inbottomseconddiv">
+
+                <input type="text" placeholder="What are you looking for?">
+                <img src="../img1/Component 2.svg" alt="foto">
+                <button>Log in</button>
+            </div>
+        </div>
+    </header>
+    <div class="con">
+        <div class="main">
+            <h1 align="center" style="font-weight: bold;">Пожаловаться</h1>
+            <form action="#">
+                <div class="maindivs">
+                    <h3>Пожаловаться</h3>
+                    <select name="site" id="sites"
+                        style="padding:9px 0px; border:1px solid rgba(128, 128, 128, 0.277);border-radius:5px; outline:none;">
+                        <option value="Choose">Choose</option>
+                        <option value="Home">Home</option>
+                        <option value="Contact">Contact</option>
+                        <option value="About">About</option>
+                        <option value="Account">Account</option>
+                        <option value="Checkout">Checkout</option>
+                        <option value="Log in">Log in</option>
+                        <option value="Sign up">Sign up</option>
+                        <option value="Cart">Cart</option>
+                        <option value="Create product">Create product</option>
+                        <option value="Productpage">Productpage</option>
+                        <option value="Userproduct">Userproduct</option>
+                    </select>
+                </div>
+                <div class="maindivs">
+                    <h3>Причина</h3>
+                    <input type="text" class="input" id="input">
+                </div>
+                <button class="button" onclick="function1()" id="button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        const choosee = document.getElementById("sites");
+        const inputt = document.getElementById("input");
+        const submit = document.getElementById("submit");
+        let cchose = ""
+        let innput = ""
+
+        function function1() {
+            cchose = choosee.value;
+            innput = inputt.value;
+            if (cchose == "Choose" || innput == "") {
+                alert("Заполните все бланки!!!")
+            } else {
+                localStorage.setItem("vibor", cchose);
+                localStorage.setItem("reason", innput);
+                console.log(cchose);
+            }
+        }
+    </script>
+    <footer>
+        <div class="topfoot">
+            <div class="view">
+                <h2>Ecksclusive</h2>
+                <ul>
+                    <li style="font-size: 21px; font-weight: bold;">Subcribe</li>
+                    <li>Get 10% off your first order</li>
+                    <input type="email" placeholder="Enter your email">
+                    <img src="../img1/Vector (2).svg" alt="" class="img">
+                </ul>
+            </div>
+            <div class="somedivs">
+                <h2>Support</h2>
+                <ul>
+                    <li>joy sarani, Dhaka, DH 1515, Bangladesh.</li>
+                    <li>exclusive@gmail.com</li>
+                    <li>+88015-
+                    <li>111 Bi88888-9999</li>
+                </ul>
+            </div>
+            <div class="somedivs">
+                <h2>Account</h2>
+                <ul>
+                    <li>My account</li>
+                    <li>Login / register</li>
+                    <li>Cart</li>
+                    <li>Wishlist</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+            <div class="somedivs">
+                <h2>Quick link</h2>
+                <ul>
+                    <li>Privacy and Policy</li>
+                    <li>Terms of use</li>
+                    <li>FAQ</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="hate">
+                <h2>Download App
+                </h2>
+                <p style="font-size: small; font-weight: bold; color: white; margin: 20px 0px;">Save $3 with App New
+                    User Only</p>
+                <div class="inhatemain">
+                    <div class="inhatemaintop">
+                        <img src="../img1/Qrcode 1.svg" alt="foto">
+                    </div>
+                    <div class="inhatemainbottom">
+                        <img src="../img1/GooglePlay.svg" alt="foto"><img src="../img1/AppStore.svg" alt="foto">
+                    </div>
+                </div>
+                <div class="inhatemainsour">
+                    <a href="#"><img src="../img1/Icon-Facebook (1).svg" alt="foto"></a>
+                    <a href="#"><img src="../img1/icon-instagram (1).svg" alt="foto"></a>
+                    <a href="#"><img src="../img1/Icon-Linkedin (1).svg" alt="foto"></a>
+                    <a href="#"><img src="../img1/Icon-Twiitter.svg" alt="foto"></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="bottomfoot">
+            <p>Copyright Rimel 2022. All right reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

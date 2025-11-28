@@ -153,3 +153,32 @@
 ::placeholder {
     color: rgba(0, 0, 0, 0.818);
 }
+@media(max-width:600px){
+.container{
+    height: 1000px;
+    width: 700px;
+    
+        margin-top: 200px;
+}
+    .main{
+    flex-direction:column;
+    gap: 30px;
+    height:900px;
+    width:700px;
+}
+.inputt{
+    width: 400px;
+    gap:10px;
+    flex-direction: column;
+}
+.cards{
+    width:130px;
+}
+.rightmaindiv{
+    width:450px;
+
+}
+.bottomcon{
+margin-top: 200px;
+}
+}

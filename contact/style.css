@@ -63,6 +63,10 @@ header .topdiv div {
   align-items: center;
   gap: 10px;
 }
+.bottomdiv .inbottomseconddiv a {
+  font-weight: bold;
+  color: white;
+}
 
 .ul {
   display: flex;
@@ -151,13 +155,21 @@ button {
   header {
     width: 800px;
   }
+  header button {
+    width: 50px;
+  }
   .burgermenyu {
     display: block;
+    margin-bottom: 40px;
+  }
+  .bottomdiv {
+    border: none;
   }
   .inbottomseconddiv {
     justify-content: start;
     align-items: start;
     padding-bottom: 20px;
+    margin-right: 200px;
   }
   .ul {
     display: none;
@@ -329,6 +341,44 @@ input {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media (max-width: 600px) {
+  .container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 800px;
+    height: 800px;
+  }
+  .mainincondiv {
+    width: 700px;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 700px;
+  }
+  .topininmain {
+    width: 800px;
+    height: 150px;
+    padding-bottom: 10px;
+  }
+  .incontopdiv {
+    margin-top: 40px;
+  }
+  .bottomininmain {
+    height: 200px;
+  }
+  #button {
+    width: 530px;
+    font-weight: normal;
+    padding: 0px 0px;
+    border-radius: 2px;
+    height: 55px;
+  }
+  .inmaindiv1 {
+    width: 500px;
+  }
+  .inmaindiv2 {
+    height: 350px;
+  }
+}
 body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
@@ -444,6 +494,7 @@ li {
   footer {
     width: 780px;
     height: 650px;
+    margin-top: 350px;
   }
   .topfoot {
     flex-wrap: wrap;

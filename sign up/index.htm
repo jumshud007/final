@@ -5,56 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="styl.css">
 </head>
 
 <body>
-   <header>
+    <header>
         <div class="topdiv">
             <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
-            <a href="#">Shop now</a>
+            <a href="../shop/index.htm">Shop now</a>
         </div>
         <div class="bottomdiv">
-            <div class="imbottomfirstdiv">
-                <ul class="ul">
+            <div class="bottomdiv">
+                <div class="burgermenyu" style="width: 188px;padding: 20px 0px 0px;">
+                    <img src="../img1/burgermenyu.png" alt="" style="width: 50px;height: 50px;"
+                        onclick="burger()">
+                    <ul class="ull" style="display: none;;">
+                        <li id="li1"> <a href="">E-commerce</a></li>
+                        <li><a href="../homepage/index.htm">Home</a></li>
+                        <li><a href="../contact/index.htm">Contact</a></li>
+                        <li><a href="../about/index.htm">About</a></li>
+                        <li  id="li2" style="
+    width: 60px;"><a href="../sign up/index.htm">Sign-up</a></li>
+                        <li id="li3"><a href="../shop/index.htm">Shop</a></li>
+                    </ul>
 
-                    <li id="li1"> <a href="">E-commerce</a></li>
-                    <li><a href="../homepage/index.htm">Home</a></li>
-                    <li><a href="../contact/index.htm">Contact</a></li>
-                    <li><a href="../about/index.htm">About</a></li>
-                    <li   id="li2"><a href="../sign up/index.htm">Sign-up</a></li>
-                    <li id="li3"><a href="../shop/index.htm">Shop</a></li>
-                </ul>
+                </div>
+                <div class="imbottomfirstdiv">
+                    <ul class="ul">
 
+                        <li id="li1"> <a href="">E-commerce</a></li>
+                        <li><a href="../homepage/index.htm">Home</a></li>
+                        <li><a href="../contact/index.htm">Contact</a></li>
+                        <li><a href="../about/index.htm">About</a></li>
+                        <li id="li2"><a href="../sign up/index.htm">Sign-up</a></li>
+                        <li id="li3"><a href="../shop/index.htm">Shop</a></li>
+                    </ul>
+
+                </div>
+                <div class="inbottomseconddiv">
+
+                    <input type="text" placeholder="What are you looking for?">
+                    <img src="../img1/Component 2.svg" alt="foto">
+                    <button><a href="../log in/index.htm">Log in</a></button>
+                </div>
             </div>
-            <div class="inbottomseconddiv">
-
-                <input type="text" placeholder="What are you looking for?">
-                <img src="../img1/Component 2.svg" alt="foto">
-                <button>Log in</button>
-            </div>
-        </div>
     </header>
     <div class="con">
         <div class="main">
             <form action="#">
-            <h1 align ="center">Create an account</h1>
+                <h1 align="center">Create an account</h1>
 
-            <h3>Name</h3>
-            <input type="text">
-            <h3>Surname</h3>
-            <input type="text">
-            <h3>Email</h3>
-            <input type="email">
-            <h3>Username</h3>
-            <input type="text">
-            <h3>Password</h3>
-            <input type="password">
-            <div class="a">
-            <button>Create account</button>
-              <p>Already have account? <a href="#">Log in</a>
-            </p>
-            </div>
+                <h3>Name and Surname</h3>
+                <input type="text" id="nameInp">
+                <h3>Email</h3>
+                <input type="email" id="emailInp">
+                <h3>Username</h3>
+                <input type="text" id="userInp">
+                <h3>Password</h3>
+                <input type="password" id="passInp">
+                <div class="a">
+                    <button id="signUp_btn">Create account</button>
+                    <p>Already have account? <a href="#">Log in</a>
+                    </p>
+                </div>
             </form>
         </div>
     </div>
